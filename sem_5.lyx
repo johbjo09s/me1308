@@ -1,0 +1,739 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\begin_preamble
+\KOMAoptions{headings=small}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ME1308 - 5 - Customer experiene of services
+\end_layout
+
+\begin_layout Author
+Johan Björklund, u1480nqu
+\end_layout
+
+\begin_layout Section*
+Services
+\end_layout
+
+\begin_layout Standard
+DICE hosts several of teams or 
+\begin_inset Quotes eld
+\end_inset
+
+operations
+\begin_inset Quotes erd
+\end_inset
+
+, who have two principal types of customers;
+\end_layout
+
+\begin_layout Itemize
+end users; customers who buy and play the games
+\end_layout
+
+\begin_layout Itemize
+studios and technical teams within EA, who use technical tools and resources
+ being produced at DICE (for example Frostbite)
+\end_layout
+
+\begin_layout Section*
+End users
+\end_layout
+
+\begin_layout Standard
+The historical development of servitization of computer games follows the
+ general arc;
+\end_layout
+
+\begin_layout Enumerate
+1970s - the arcade - games are played in coin-operated arcades (full service)
+\end_layout
+
+\begin_layout Enumerate
+1980s, 1990s - the consoles - games are sold 
+\begin_inset Quotes eld
+\end_inset
+
+locked
+\begin_inset Quotes erd
+\end_inset
+
+ and packaged for playing on consoles or personal computers
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1990s - shareware - limited versions of games are distributed freely, with
+ the option to purchase the complete version
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+2000s - games are sold packaged - but may connect to servers where additional
+ levels and multiplayer modes may be accessed
+\end_layout
+
+\begin_layout Enumerate
+2010s - games are purchased or 
+\begin_inset Quotes eld
+\end_inset
+
+rented
+\begin_inset Quotes erd
+\end_inset
+
+ through portals where additional features, levels, resources and modes
+ may be accessed or purchased
+\end_layout
+
+\begin_layout Standard
+EA provides a 
+\begin_inset Quotes eld
+\end_inset
+
+portal
+\begin_inset Quotes erd
+\end_inset
+
+ or software distribution service called 
+\begin_inset Quotes eld
+\end_inset
+
+Origin
+\begin_inset Quotes erd
+\end_inset
+
+ where games may be bought, but much of 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+ sales are still physical packages.
+\end_layout
+
+\begin_layout Subsubsection*
+End user ecosystem
+\end_layout
+
+\begin_layout Standard
+After a game is released, it is the responsibility of an 
+\begin_inset Quotes eld
+\end_inset
+
+operations
+\begin_inset Quotes erd
+\end_inset
+
+ team to run customer services.
+ The main purpose is to maintain customer satisfaction with what is termed
+ 
+\begin_inset Quotes eld
+\end_inset
+
+an active eco-system
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The operations team runs a specific portal for 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+ users where additional levels or features might be accessed, a forum community
+ for interaction between users.
+ Activities such as competitions are hosted, top-scores are presented on
+ leaderboards, and so on.
+\end_layout
+
+\begin_layout Standard
+As is customary with commercial online portals, activities of the users
+ are monitored with analytics to learn about user trends, and to make direct
+ suggestions.
+\end_layout
+
+\begin_layout Subsubsection*
+Co-creation?
+\end_layout
+
+\begin_layout Standard
+While end users are able to host servers of their own, one might expect
+ that end users also would be able to create content such as custom levels
+ and artwork for 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+, which would then be distributable through DICE channels, but this is not
+ so.
+\end_layout
+
+\begin_layout Standard
+Referencing Paul Saffo's concept of 
+\begin_inset Quotes eld
+\end_inset
+
+the creator economy
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Get ready for a new economic era
+\begin_inset Quotes erd
+\end_inset
+
+, McKinsey&Company What Matters, February 26, 2009
+\end_layout
+
+\end_inset
+
+, there should be an opportunity for DICE to further increase the engagement
+ and commitment of 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+ users by allowing them to contribute artwork and levels through a form
+ of 
+\begin_inset Quotes eld
+\end_inset
+
+creator marketplace
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This is in fact possible in other EA titles such as 
+\begin_inset Quotes eld
+\end_inset
+
+The Sims
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Transparency
+\end_layout
+
+\begin_layout Standard
+The details of the creative design of games are largely treated as secrets
+ before the release.
+ While there are merits with this approach; such as anticipation, alure
+ and sense of reward; there is a possibility that a deeper commitment and
+ engagement might be achieved by opening the creative process.
+\end_layout
+
+\begin_layout Subsubsection*
+Growth
+\end_layout
+
+\begin_layout Standard
+The trend is heading for online distribution of games like 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+, but currenly, the large data size makes online distribution (downloading)
+ unwieldy for many consumers as reliable high speed downloads are still
+ uncommon.
+\end_layout
+
+\begin_layout Standard
+However, there are several added benefits with the digital distribution
+ model:
+\end_layout
+
+\begin_layout Itemize
+Payment details are negotiated in advance, making in-game purchases of value-add
+ features (for example levels, 
+\begin_inset Quotes eld
+\end_inset
+
+lives
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+weapons
+\begin_inset Quotes erd
+\end_inset
+
+, and so on) seamless.
+ Mobile games (for example 
+\begin_inset Quotes eld
+\end_inset
+
+Candy Crush
+\begin_inset Quotes erd
+\end_inset
+
+) provide good examples for this.
+\end_layout
+
+\begin_layout Itemize
+Ability for community operators at DICE to make offers, award prices, and
+ so on.
+\end_layout
+
+\begin_layout Standard
+The game studio Blizzard Entertainment has achieved legendary success with
+ its franchise 
+\begin_inset Quotes eld
+\end_inset
+
+World of Warcraft
+\begin_inset Quotes erd
+\end_inset
+
+ using this model for distribution and revenue.
+\end_layout
+
+\begin_layout Standard
+While some of these goals are not currently practical for DICE, consideration
+ should be made for aligning of tools and processes with these models.
+\end_layout
+
+\begin_layout Subsubsection*
+Risks
+\end_layout
+
+\begin_layout Standard
+As the trend progresses towards 
+\begin_inset Quotes eld
+\end_inset
+
+game as a service
+\begin_inset Quotes erd
+\end_inset
+
+, we may be warned by the backlashes against overzealous copyright protection
+ in earlier EA games, where the principal criticism from consumers was unfair
+ limitations in use of the product they purchased
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Electronic_Arts#EULA_and_DRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+EA has also received criticism
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Origin_(digital_distribution_software)#Accusations_o
+f_spying
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ for end-use terms of its Origin distribution service.
+\end_layout
+
+\begin_layout Standard
+Trust and effective end-user community relations are critical to make the
+ transition towards 
+\begin_inset Quotes eld
+\end_inset
+
+game as service
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Technical (
+\begin_inset Quotes erd
+\end_inset
+
+studio
+\begin_inset Quotes erd
+\end_inset
+
+) customers
+\end_layout
+
+\begin_layout Standard
+The source of some information here is based on an informal interview with
+ an engineer at DICE, and represents an approximate instantaneous view of
+ the operations.
+ Procedures are continually updated, as decided by the nearest technical
+ manager in the hierarchy.
+\end_layout
+
+\begin_layout Standard
+There are several teams at DICE serving technical users within EA.
+ Several processes are in place for directing the communications between
+ teams roughly following the model;
+\end_layout
+
+\begin_layout Itemize
+requests for features at studios are escalated to product managers, project
+ leaders (or equivalent titles)
+\end_layout
+
+\begin_layout Itemize
+one person on the technical team at DICE is assigned as representative for
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+studio customer
+\begin_inset Quotes erd
+\end_inset
+
+, and has regular communication with product managers
+\end_layout
+
+\begin_layout Itemize
+EA executives may decide priority of requests, based on importance of the
+ customer's product (i.e.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+FIFA
+\begin_inset Quotes erd
+\end_inset
+
+ has top priority, because of volume of sales and revenue) though this need
+ not always be explicit.
+\end_layout
+
+\begin_layout Itemize
+Customer studios pay lump-sum for use of DICE tools, i.e.
+ not royalty based
+\end_layout
+
+\begin_layout Standard
+The technical teams make regular releases of their tools, but development
+ releases (which are previews, with less thorough testing) are available
+ to studio customers on a self-serve basis.
+\end_layout
+
+\begin_layout Standard
+Studio customers may also make direct contributions to DICE tools, as such
+ this is an example of co-creation.
+\end_layout
+
+\begin_layout Subsection*
+Professional services
+\end_layout
+
+\begin_layout Standard
+Employees from any EA studio may make visits to other EA studios for various
+ reasons:
+\end_layout
+
+\begin_layout Itemize
+If external studio requests assistance with technology.
+ In this case the receiving studio pays for developer time.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Exchange
+\begin_inset Quotes erd
+\end_inset
+
+ of employees can be arrange between studios.
+ These are motivated with training, teaching and learning.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+(Travel and exchange are limited in budget)
+\end_layout
+
+\begin_layout Standard
+Certain employees of the technical teams function as 
+\begin_inset Quotes eld
+\end_inset
+
+commandos
+\begin_inset Quotes erd
+\end_inset
+
+ and act as ready-to-go support for external studios.
+\end_layout
+
+\begin_layout Section*
+Criticisms, factors of success
+\end_layout
+
+\begin_layout Standard
+In this short survey of EA DICE internal service structure, we have found
+ few to points to criticise.
+ The structures seem few, sparsely documented, of an ad-hoc nature, and
+ are reported to work well.
+ The main challenges are reported to be communication of ideas.
+\end_layout
+
+\begin_layout Standard
+It is unlikely the technical success is owed to meticulous design of procedures
+ and structures.
+ We look for factors of success elsewhere.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Quotes eld
+\end_inset
+
+Pull architecture
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Of note: there is no internal 
+\begin_inset Quotes eld
+\end_inset
+
+selling
+\begin_inset Quotes erd
+\end_inset
+
+ within EA:
+\end_layout
+
+\begin_layout Enumerate
+The studios design according to 
+\begin_inset Quotes eld
+\end_inset
+
+what feels right
+\begin_inset Quotes erd
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+and implement while using services from the technical teams on a self-serve
+ basis.
+\end_layout
+
+\begin_layout Enumerate
+Technical teams serve the demand from studios without any notion of 
+\begin_inset Quotes eld
+\end_inset
+
+selling
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We make the observation that internal selling between teams/divisions would
+ not serve the end product or end customer, only divisional results.
+\end_layout
+
+\begin_layout Standard
+To serve end customer; demand must flow from the outermost interpretation
+ of customer demand - which is the game designer.
+ Resources are assigned to the studio based on market success its products.
+\end_layout
+
+\begin_layout Standard
+Incentive to perform seems to be based on meritocracy.
+\end_layout
+
+\begin_layout Subsubsection*
+Employee engagement and trust
+\end_layout
+
+\begin_layout Standard
+Recruitment to leading roles are done through internal applications.
+ Many influencial roles are filled by 
+\begin_inset Quotes eld
+\end_inset
+
+veterans
+\begin_inset Quotes erd
+\end_inset
+
+ with deep knowledge and experience.
+ Because DICE is a young company with remarkable success and growth, the
+ working environment is exceptional with respect to mix of experienced veterans
+ and hopeful new recruits.
+ One observation may be gleaned from reports of employees:
+\end_layout
+
+\begin_layout Itemize
+Competent, yet prestigeless environment
+\end_layout
+
+\begin_layout Standard
+Of note: there seems to be a strong incentive to produce excellent work,
+ without 
+\begin_inset Quotes eld
+\end_inset
+
+direct explicit incentives
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\shape italic
+(there are stock-options-programs, but they are not directly correlated
+ with individual effort.)
+\shape default
+ Rising the meritocracy seems to be incentive enough.
+\end_layout
+
+\begin_layout Subsection*
+Conclusions: leadership
+\end_layout
+
+\begin_layout Standard
+DICE provides an example of how effectively internal services can work,
+ but provides little guidance on how to emulate it in terms of structures,
+ procedures, and operations.
+\end_layout
+
+\begin_layout Standard
+The key factors at play are likely to be leadership, which merits further
+ study.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1588 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\begin_preamble
+\KOMAoptions{headings=small}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter Droid Sans Mono
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ME1308 - Seminar 1
+\end_layout
+
+\begin_layout Author
+Johan Björklund, u1480nqu
+\end_layout
+
+\begin_layout Section*
+Introduction to EA DICE
+\end_layout
+
+\begin_layout Standard
+The video game industry is the biggest entertainment industry in the world,
+ with a larger market than either the music or film industries
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+.
+ The design and production of computer games integrates the disciplines
+ of software engineering, visual and audio design, music and other forms
+ of artistry.
+ The production projects of so-called AAA titles (
+\begin_inset Quotes eld
+\end_inset
+
+the biggest titles
+\begin_inset Quotes erd
+\end_inset
+
+) span several years, involving hundreds of people from different disciplines
+ and geographic locations, with budgets counted in hundreds of millions
+ of kronor, and finally distributed to many millions of (sometimes) interconnect
+ed users.
+ This makes the production of these games among the biggest and most complicated
+ IT-projects
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Björn Thuresson (KTH) [14:30], Sigurlina Ingvarsdottir (DICE) [27:30]
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://talks.crosstalks.tv/game-on-how-gaming-defines-our-culture-7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, and therefore interesting subjects of study.
+\end_layout
+
+\begin_layout Standard
+EA Digital Illusions Creative Entertainment (or simply DICE) is a game developme
+nt company originally founded in 1992 by students in Sweden.
+ It belongs to class of companies called 
+\begin_inset Quotes eld
+\end_inset
+
+game studios
+\begin_inset Quotes erd
+\end_inset
+
+, reflecting its mix of disciplines, competencies and processes.
+ It is mainly known for its series of titles called 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+, of which the first was released in 2000 as 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 1942
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In similarity with other creative industries, game studios sometimes work
+ on contracts with 
+\begin_inset Quotes eld
+\end_inset
+
+game publishers
+\begin_inset Quotes erd
+\end_inset
+
+ which finance particular projects, and provide distribution and marketing.
+ EA, the american-owned publisher for 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 1942
+\begin_inset Quotes erd
+\end_inset
+
+, acquired DICE in 2005/2006 and it became a subsidiary of EA.
+ DICE has since expanded its offices in Stockholm, and opened offices in
+ other locations.
+ Patrick Söderlund, one of the DICE founders, has been recruited to executive
+ roles within EA.
+\end_layout
+
+\begin_layout Standard
+EA itself has around 8000 employees world wide.
+ EA has in the recent decade received criticism
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Electronic_Arts
+\backslash
+#Criticism
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ concerning among many things: treatment of employees, quality issues in
+ games, and copyright-protection measures that were considered unneccessarily
+ aggressive.
+\end_layout
+
+\begin_layout Section*
+Market positioning or internal resources for competitiveness?
+\end_layout
+
+\begin_layout Standard
+We will investigate the factors that affect the competetivness of EA DICE,
+ and apply theories and concepts from operations management to relevant
+ conditions concerning these two companies.
+ Since strategic market decisions are made by EA, and operative decisions
+ are made at DICE, certain concepts may only apply accordingly.
+\end_layout
+
+\begin_layout Section*
+Products and services
+\end_layout
+
+\begin_layout Standard
+The main products of DICE are 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield
+\begin_inset Quotes erd
+\end_inset
+
+ series of games and their derivatives, which are similar with different
+ branding and story content.
+\end_layout
+
+\begin_layout Standard
+At the core of the big AAA-titles lies what is called a 
+\begin_inset Quotes eld
+\end_inset
+
+game engine
+\begin_inset Quotes erd
+\end_inset
+
+.
+ It is the technical foundation (or 
+\begin_inset Quotes eld
+\end_inset
+
+platform
+\begin_inset Quotes erd
+\end_inset
+
+) of the game - we might say 
+\begin_inset Quotes eld
+\end_inset
+
+the engine runs the game
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Designing and producing a game translates into creating input for the engine.
+ The engine can thus be shared among different games of different genres.
+ The game engine at DICE is called Frostbite, and has been in continual
+ development since 2006
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+an earlier engine was called 
+\begin_inset Quotes eld
+\end_inset
+
+Refractor
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ at DICE by the Core Technology/Engineering team.
+\end_layout
+
+\begin_layout Standard
+Frostbite comprises, apart from the core engine itself, a suite of tools
+ and programs necessary to maintain efficient workflows for game designers.
+ Frostbite in all versions is used by more than twenty different titles
+ from EA.
+ This makes DICE, and the Core Technology team, a service provider to other
+ teams across EA.
+ The life-cycle of a Frostbite version seems to last around three years,
+ in step with the development cycle of games that adopt it.
+ Hence, in order to develop a game with a competetive engine version and
+ reduce complexities of heterogenous versions, game development and engine
+ releases benefit by being synchronized.
+\end_layout
+
+\begin_layout Paragraph*
+External IP, branded games
+\end_layout
+
+\begin_layout Standard
+Because of existing resources and capabilities, DICE is well positioned
+ to produce games similar to its main titles that are branded with external
+ branding and intellectual property.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefront: Star Wars
+\begin_inset Quotes erd
+\end_inset
+
+ (to be released in 2016)
+\begin_inset Quotes erd
+\end_inset
+
+ is a recent example.
+\end_layout
+
+\begin_layout Paragraph*
+Value chain
+\end_layout
+
+\begin_layout Standard
+According to Ben Sawyer's classification of the game value chain
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Video_game_industry#Game_industry_value_chain
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, we see that DICE occupies the 
+\begin_inset Quotes eld
+\end_inset
+
+Product and talent
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Production and tools
+\begin_inset Quotes erd
+\end_inset
+
+ layers.
+ Also considering EA, more layers would apply.
+\end_layout
+
+\begin_layout Standard
+Because DICE is so firmly invested in this part of the value chain, we are
+ careful about considering opportunities too far outside these layers.
+\end_layout
+
+\begin_layout Subparagraph*
+Competition
+\end_layout
+
+\begin_layout Standard
+There are only a few competing studios able to produce AAA titles, and most
+ of the AAA production focus on existing brands or 
+\begin_inset Quotes eld
+\end_inset
+
+franchises
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+...
+\end_layout
+
+\end_inset
+
+.
+ This means strong competition among few competitors for AAA opportunities,
+ but wide competition for customer engagement and alternative styles of
+ games.
+\end_layout
+
+\begin_layout Subsection*
+Market and product strategy
+\end_layout
+
+\begin_layout Standard
+In an interview
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.gamesindustry.biz/articles/2015-07-06-soderlund
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Patrick Söderlund explains:
+\end_layout
+
+\begin_layout Quote
+The minute you start designing and innovating with money in mind, you're
+ ultimately not going to be successful.
+ You need to put the money aside and say, "How do we actually make something
+ that is fundamental, that helps our games, and essentially the people that
+ play them, to have a better and more fun experience?"
+\end_layout
+
+\begin_layout Quote
+/.../ Without taking any credit, I started the Frostbite initiative 10 years
+ ago [laughs] and it came out of frustration, having to build an engine
+ every time in every game.
+ "We're spending 50 per cent of our time making an engine.
+ I want to spend 90 per cent of our time making a game," so we said, "Let's
+ build something that can live over time, that is upgradable, that is where
+ a lot of the focus goes against user interface, and tools and pipelines,
+ then add to it as we go on," 
+\end_layout
+
+\begin_layout Quote
+/.../ That's kind of an open-source mentality that we use, and people want
+ to contribute to the engine, so we may have 300 people, but in essence
+ we have 3,000 people contributing to the code, and it's getting better
+ and better and better.
+\end_layout
+
+\begin_layout Standard
+We see that the motivation behind Frostbite was primarily to factor the
+ technical work out from the creative work, allowing designers and artists
+ more freedom.
+ Continuous investment into Frostbite, and contributions from teams across
+ EA, has given EA and DICE critical competitive advantages and represents
+ a huge barrier to entry for competitors.
+\end_layout
+
+\begin_layout Standard
+This represents a type of outside-in perspective in defining requirements
+ and business strategy, where the staff acts as the main testing demographic.
+\end_layout
+
+\begin_layout Standard
+The tools and processes (we might say operation resources and capabilities)
+ are improved and added to over each iteration.
+ As this practice grows within EA, the quality and quantity of the tools
+ grow.
+\end_layout
+
+\begin_layout Section*
+Characteristics and processes
+\end_layout
+
+\begin_layout Standard
+There are various models by which to characterize the processes in software
+ development; for ease of discussion we might we consider the different
+ levels of work of a game studio as;
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+title/game Work on a title might span over years and requires large resources,
+ careful planning, and many teams and disciplines.
+ Specifications of a title start as loose, and become more defined as work
+ progresses.
+ The total capacity to produce titles is low, and each represents a risk.
+ For predictability and practicality there is little variety within titles,
+ for example: 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 4
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield4: China Rising
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 4: Second Assault
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+project Projects are diverse items of work with clear goals and estimates
+ of time requirements.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+feature A feature is a small item of work that can be completed by one person
+ or a small team.
+ Progress of projects can be measured by features.
+ Features can be diverse, specialised and teams/people must work on different
+ types of features.
+ The aim is to have high volume throughput of features.
+\end_layout
+
+\begin_layout Standard
+We can see that the business implications of starting work on a title are
+ large.
+ Between 2011 and 2013, six subtitles of 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 3
+\begin_inset Quotes erd
+\end_inset
+
+ were released.
+ Between 2013 and 2015, eight sub-titles of 
+\begin_inset Quotes eld
+\end_inset
+
+Battlefield 4
+\begin_inset Quotes erd
+\end_inset
+
+ were released.
+ We see that one strategy to lower risk and maximize return on technology
+ investment and brand loyalty, is to reuse elements from the present generation
+ in releases of sub-titles during the development phase of the next technology
+ generation.
+\end_layout
+
+\begin_layout Subparagraph*
+Rigidity
+\end_layout
+
+\begin_layout Standard
+Because of the size of Frostbite and the titles, each title requires large
+ teams working in cycles of one-two years, which creates the need for a
+ predictable pipe-line of titles.
+\end_layout
+
+\begin_layout Subsection*
+PEST - potential outlook
+\end_layout
+
+\begin_layout Standard
+We now have enough basic facts to present some diagrams of outlook and competeti
+ve strengths:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Political
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Economic
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+new education-programs (talent)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+restrictions on violent games?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Socio-cultural
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Technological
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fashion favors smaller games
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+shorter time investment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+hardware improvements
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+game engines commoditized
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Demographic/Psychographic
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Global
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gaming becomes more accepted
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wider demographic
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+western fashion spreads
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Porter's forces
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Threat of new entrants
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Threat of substitutes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Low
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medium or High
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Power of customers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Power of suppliers (employees)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medium
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medium
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Competitive rivalry
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+High
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+SWOT
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Strengths
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Weaknesses
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+technological base
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+employee satisfaction
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+customer loyalty to titles
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+long cycle times
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+dependence on few titles
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Opportunities
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Threats
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+make branded games (Star Wars)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mobile adaptation of games
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+in-game monetization
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+shorter time investment in games
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+pass-times (netflix, facebook)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+small-terminal mobile games
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Resources and competetive position
+\end_layout
+
+\begin_layout Standard
+One possibility is to view the competetive strength of DICE as resting on
+ the quality of the technogical base (resources), which in turn depends
+ on the processes, and the people who implement them - an inside-out view.
+\end_layout
+
+\begin_layout Standard
+Another view is to consider the competitive strength of the products as
+ a result of accurate intepretation of customer demand, and to view the
+ technological base as the inevitable investment necessary to realize the
+ end product.
+ The tech base (production resources) is then a by-product of product strategy.
+ This would be an outside-in view.
+\end_layout
+
+\begin_layout Standard
+There is merit in both these views depending on time-perspective, but I
+ think the latter closer to truth in the case of DICE and a much more useful
+ conclusion.
+\end_layout
+
+\end_body
+\end_document

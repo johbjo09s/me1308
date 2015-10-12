@@ -1,0 +1,722 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\begin_preamble
+\KOMAoptions{headings=small}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ME1308 - 6 - Lean Innovative Operations
+\end_layout
+
+\begin_layout Author
+Johan Björklund, u1480nqu
+\end_layout
+
+\begin_layout Section*
+Background: lean software development
+\end_layout
+
+\begin_layout Standard
+The styles of processes in software development and IT projects might be
+ characterized into two major types, each typified by the environment and
+ requirements where it first emerged.
+\end_layout
+
+\begin_layout Subparagraph*
+Intensive pre-planning and documentation
+\end_layout
+
+\begin_layout Itemize
+Examples: 
+\begin_inset Quotes eld
+\end_inset
+
+Waterfall
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Structured systems analysis and design methods
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Largely 
+\begin_inset Quotes eld
+\end_inset
+
+all
+\begin_inset Quotes erd
+\end_inset
+
+ projects in early IT-development (1960:s to 1980:s) were conducted with
+ intensive pre-planning and minute documentation of requirements.
+ The customers of these projects were government and military agencies,
+ large institutions for example within finance industries (banks, insurance
+ companies,), aero-space and industrial firms, etc - rarely were they end
+ consumers.
+ Big projects for customers that expected big returns.
+\end_layout
+
+\begin_layout Standard
+Key factors that make intensive pre-planning necessary are:
+\end_layout
+
+\begin_layout Itemize
+Cost of failure (for example within aero-space and finance)
+\end_layout
+
+\begin_layout Itemize
+Cost of iterations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+cycle time; cost of rebooting a smelting plant, pulp plant, rebooting factories,
+ process-industries
+\end_layout
+
+\begin_layout Itemize
+expensive 
+\begin_inset Quotes eld
+\end_inset
+
+one shot
+\begin_inset Quotes erd
+\end_inset
+
+ tests: missiles, bombs, rockets
+\end_layout
+
+\begin_layout Itemize
+computer running time is expensive; automated testing impractical
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Requirements are detailed and known in advance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ the project is cleared based on expected returns
+\end_layout
+
+\end_deeper
+\begin_layout Subparagraph*
+Iterative development
+\end_layout
+
+\begin_layout Standard
+Software and electronics products that are developed for end consumers,
+ proposed to fill a market need, have one key characteristic:
+\end_layout
+
+\begin_layout Itemize
+Final requirements are unkown
+\end_layout
+
+\begin_layout Standard
+As the internet grew into a platform for distributing services for end consumers
+, ability to develop in quick iterations and learn from customer behaviour
+ proved to be an important factor for success.
+\end_layout
+
+\begin_layout Standard
+The key factors that enable quick iterations are:
+\end_layout
+
+\begin_layout Itemize
+Cost of failure is low - (dynamics of redundancies make down-time of a consumer
+ service less important)
+\end_layout
+
+\begin_layout Itemize
+Improvements and features may be tested on subsets of customers without
+ breaking requirements
+\end_layout
+
+\begin_layout Itemize
+Cost of testing is low
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fast build-times, modularisation, allow fast iterative testing of individual
+ components
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+One important and major outcome of the iterative process:
+\end_layout
+
+\begin_layout Itemize
+discovering requirements for a loosely defined problem
+\end_layout
+
+\begin_layout Standard
+We see that customer demand is loosely defined and thus consumer products
+ are suitable for iterative development, but many purely technical problems
+ are also suitable for iteration as long as cost of failure is low.
+\end_layout
+
+\begin_layout Paragraph*
+Lean, iterative development and 
+\begin_inset Quotes eld
+\end_inset
+
+agile
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The iterative process shares characteristics with lean, and there has been
+ various interpretations of the goals and methods of lean production as
+ applied to software development; one of them which is widely known is 
+\begin_inset Quotes eld
+\end_inset
+
+agile
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.agilemanifesto.org/principles.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Agile is a collection of goals (not a wholesale process or methodology)
+ and if achieved, echoes the following principles of lean:
+\end_layout
+
+\begin_layout Itemize
+Continual improvement
+\end_layout
+
+\begin_layout Itemize
+Free flow of information
+\end_layout
+
+\begin_layout Itemize
+Increased time effeciency
+\end_layout
+
+\begin_layout Itemize
+...
+\end_layout
+
+\begin_layout Standard
+Lean and agile are sometimes used interchangeably in software jargon.
+\end_layout
+
+\begin_layout Section*
+Conflicts and challenges
+\end_layout
+
+\begin_layout Standard
+On big projects, it is necessary to perform iterations on modules and components.
+ The two major challenges in 
+\begin_inset Quotes eld
+\end_inset
+
+achieving agile
+\begin_inset Quotes erd
+\end_inset
+
+ in a development project can be summarized as:
+\end_layout
+
+\begin_layout Enumerate
+Identifying key success factors for the project at hand:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+cost of failure, cost of testing, detail of requirements known in advance
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Deviding and slicing big projects into pieces (modules) which might be iterated
+ on:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Modules and features must have appropriate success factors for iteration,
+ refer to (1)
+\end_layout
+
+\begin_layout Itemize
+Interdependencies between modules must be determined in advance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To plan time-order of development
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The size of the sub-project or feature must fit into alotted capacity
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Incorrect sizing of will lead to overload
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Overload will force prioritisation too late in the process
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Because iterations on sub-projects are never 
+\begin_inset Quotes eld
+\end_inset
+
+complete
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+final
+\begin_inset Quotes erd
+\end_inset
+
+, appropriate level of quality or success must be decided or known
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Achieving agile requires deep knowledge of the technical conditions of the
+ project.
+\end_layout
+
+\begin_layout Standard
+The end requirements are unknown, but understanding of the time requirements,
+ interdepencies of modules and components must be understood.
+ With in these uncertainties, methods of approximations must be used.
+\end_layout
+
+\begin_layout Subsection*
+Symptoms of mis-implementation
+\end_layout
+
+\begin_layout Standard
+Typical symptoms of failure to implement agile are
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+David J Andersson (); http://www.djaa.com/resources
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+Time-crunch (or 
+\begin_inset Quotes eld
+\end_inset
+
+crunch time
+\begin_inset Quotes erd
+\end_inset
+
+, as in critical or intense period of finishing tasks, experienced as 
+\begin_inset Quotes eld
+\end_inset
+
+compressed
+\begin_inset Quotes erd
+\end_inset
+
+ time), is usually caused by:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Failure to plan appropriate time-slices, or quality-requirements of features;
+ caused too much time to be spent on lower priority-features
+\end_layout
+
+\begin_layout Itemize
+Less time available to work on high priority features that were planned
+ or deferred
+\end_layout
+
+\begin_layout Itemize
+Leads to late prioritisation of features/requirements
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+End product becomes a consequence of 
+\begin_inset Quotes eld
+\end_inset
+
+chance
+\begin_inset Quotes erd
+\end_inset
+
+ rather than considered compromises
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Overload leads to exhausting developers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+low quality
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+errors cause more iterations and slow progress
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection*
+Summary of agile methods
+\end_layout
+
+\begin_layout Standard
+Lean or agile methods in software development achieve effeciencies by:
+\end_layout
+
+\begin_layout Itemize
+Spreading the design and requirements work over the time duration of the
+ project
+\end_layout
+
+\begin_layout Itemize
+Deferring decisions until
+\end_layout
+
+\begin_layout Section*
+Implementation of agile at DICE
+\end_layout
+
+\begin_layout Standard
+Two parts to implementation; introducing practices and maintaining them.
+ Experience
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+David J Anderson, 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.djaa.com/resources
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ shows that, in general, that introduction of new practices among developers
+ must be voluntary, and benefits must be demonstrated by example.
+ Whether versions of these practices are already in place at DICE; the challenge
+s remain 1) to spread use and acceptance of certain practices among developers
+ 2) and to monitor for misuse, sub-optimisation or problems.
+\end_layout
+
+\begin_layout Standard
+We see that introducing use of practices and tools then is a matter of communica
+tion, and makes necessary appropriate channels and forums for discussion
+ and debate.
+ We see that cross-team communication is important.
+\end_layout
+
+\begin_layout Standard
+To monitor for misimplementation or failures in planning, we need to keep
+ measurements that can capture symptoms of typical failures, such as:
+\end_layout
+
+\begin_layout Itemize
+To be able to prevent time-crunch in advance:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measure time/rate of completion of relevant work units (tasks/features/modules/p
+rojects)
+\end_layout
+
+\begin_layout Itemize
+Monitor progress as percentage of entire project, make sure completion-rate
+ of sub-tasks allows total completion within time-frime
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If this fails to catch time-crunch, it means slicing and time-estimates
+ of tasks and requirements are poor.
+ It might be impossible to improve, but this should cause feedback to managers
+ responsible for task-prioritisation in order to improve estimates
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Measure daily work hours and output of developers.
+ Watch for trends.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+developers/managers should not compensate for bad planning by increasing
+ work intensity.
+ This is the definition of 
+\begin_inset Quotes eld
+\end_inset
+
+crunch time
+\begin_inset Quotes erd
+\end_inset
+
+, which is to be avoided.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+To catch quality issues
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There are many techniques; bug density, number of failing tests
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Unit testing: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Unit_testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Relevant quality measures
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph*
+Roles
+\end_layout
+
+\begin_layout Standard
+The benchmarks above provide.
+ Agile delegates certain responsibilities; 
+\end_layout
+
+\begin_layout Itemize
+Producer, 
+\begin_inset Quotes eld
+\end_inset
+
+creative directors
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Technical leaders
+\end_layout
+
+\begin_layout Subsubsection*
+Planning
+\end_layout
+
+\begin_layout Subsection*
+Strategy
+\end_layout
+
+\begin_layout Standard
+Avoid unncessary work as early as possible ...
+\end_layout
+
+\begin_layout Standard
+This strategy needs the procedure/data:
+\end_layout
+
+\begin_layout Itemize
+Competence to break proposed features into smaller testable units
+\end_layout
+
+\begin_layout Itemize
+Ability to implement trial-features for testing
+\end_layout
+
+\begin_layout Itemize
+Ability to measure which features have high usage uptake, and which affect
+\end_layout
+
+\begin_layout Itemize
+Ability to make continual improvements
+\end_layout
+
+\begin_layout Subsection*
+Pitfalls
+\end_layout
+
+\begin_layout Standard
+Misinterpreting lean, EA example from 2000:s.
+ 
+\end_layout
+
+\begin_layout Itemize
+Frequent changes in plans
+\end_layout
+
+\begin_layout Itemize
+Small projects with unclear goals
+\end_layout
+
+\begin_layout Itemize
+Overloading specific developers team with feature-requests
+\end_layout
+
+\begin_layout Section*
+Lessons
+\end_layout
+
+\begin_layout Section*
+Conclusion
+\end_layout
+
+\end_body
+\end_document
