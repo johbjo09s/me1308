@@ -56,9 +56,9 @@
 \color #008000
 \end_index
 \leftmargin 2cm
-\topmargin 2cm
+\topmargin 3cm
 \rightmargin 2cm
-\bottommargin 2.5cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -81,7 +81,18 @@ ME1308 - 6 - Lean Innovative Operations
 \end_layout
 
 \begin_layout Author
-Johan Björklund, u1480nqu
+Johan Björklund, u1480nqu, 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+johbjo09@gmail.com
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -91,11 +102,11 @@ Background: lean software development
 \begin_layout Standard
 The styles of processes in software development and IT projects might be
  characterized into two major types, each typified by the environment and
- requirements where it first emerged.
+ requirements where they first emerged.
 \end_layout
 
-\begin_layout Subparagraph*
-Intensive pre-planning and documentation
+\begin_layout Subsection*
+Intensive pre-planning and documentation: institutionalised projects
 \end_layout
 
 \begin_layout Itemize
@@ -130,9 +141,8 @@ all
  projects in early IT-development (1960:s to 1980:s) were conducted with
  intensive pre-planning and minute documentation of requirements.
  The customers of these projects were government and military agencies,
- large institutions for example within finance industries (banks, insurance
- companies,), aero-space and industrial firms, etc - rarely were they end
- consumers.
+ or maybe large institutions in finance (banks, insurance), aero-space and
+ industrial firms, etc - rarely were they end consumers.
  Big projects for customers that expected big returns.
 \end_layout
 
@@ -141,7 +151,7 @@ Key factors that make intensive pre-planning necessary are:
 \end_layout
 
 \begin_layout Itemize
-Cost of failure (for example within aero-space and finance)
+High cost of failure (safety, aero-space, finance, industrial processes)
 \end_layout
 
 \begin_layout Itemize
@@ -150,20 +160,12 @@ Cost of iterations
 
 \begin_deeper
 \begin_layout Itemize
-cycle time; cost of rebooting a smelting plant, pulp plant, rebooting factories,
- process-industries
+cycle time (cost of rebooting a smelting plant, pulp plant, rebooting factories,
+ process-industries)
 \end_layout
 
 \begin_layout Itemize
-expensive 
-\begin_inset Quotes eld
-\end_inset
-
-one shot
-\begin_inset Quotes erd
-\end_inset
-
- tests: missiles, bombs, rockets
+expensive tests (missiles, bombs, rockets, aeroplanes)
 \end_layout
 
 \begin_layout Itemize
@@ -178,36 +180,37 @@ Requirements are detailed and known in advance
 \begin_deeper
 \begin_layout Itemize
 i.e.
- the project is cleared based on expected returns
+ the project is cleared based on specifications (military, government agencies),
+ or calculated returns (finance, detailed business cases)
 \end_layout
 
 \end_deeper
-\begin_layout Subparagraph*
-Iterative development
+\begin_layout Subsection*
+Iterative development: web services
 \end_layout
 
 \begin_layout Standard
-Software and electronics products that are developed for end consumers,
- proposed to fill a market need, have one key characteristic:
+Software and services that are developed for end consumers, proposed to
+ fill a market need, have one key characteristic:
 \end_layout
 
 \begin_layout Itemize
-Final requirements are unkown
+Final requirements for customer satisfaction are unkown
 \end_layout
 
 \begin_layout Standard
 As the internet grew into a platform for distributing services for end consumers
 , ability to develop in quick iterations and learn from customer behaviour
  proved to be an important factor for success.
-\end_layout
-
-\begin_layout Standard
-The key factors that enable quick iterations are:
+ Wide impact of iterative development was first seen in early consumer internet
+ services; enabling factors were low cost of failure (services were a form
+ of entertainment), and updates/iterations are essentially free as web-services
+ are centralised and updates are immediate.
+ The key factors that enable quick iterations are:
 \end_layout
 
 \begin_layout Itemize
-Cost of failure is low - (dynamics of redundancies make down-time of a consumer
- service less important)
+Low cost of failure
 \end_layout
 
 \begin_layout Itemize
@@ -235,12 +238,11 @@ discovering requirements for a loosely defined problem
 \end_layout
 
 \begin_layout Standard
-We see that customer demand is loosely defined and thus consumer products
- are suitable for iterative development, but many purely technical problems
- are also suitable for iteration as long as cost of failure is low.
+We see that when end customer demand, or criterias for success, is loosely
+ defined, then iterative development is suitable.
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subsection*
 Lean, iterative development and 
 \begin_inset Quotes eld
 \end_inset
@@ -255,7 +257,7 @@ agile
 \begin_layout Standard
 The iterative process shares characteristics with lean, and there has been
  various interpretations of the goals and methods of lean production as
- applied to software development; one of them which is widely known is 
+ applied to software development; one of them widely known is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -285,7 +287,7 @@ http://www.agilemanifesto.org/principles.html
 
 .
  Agile is a collection of goals (not a wholesale process or methodology)
- and if achieved, echoes the following principles of lean:
+ and if achieved, echoes the some of the principles of lean:
 \end_layout
 
 \begin_layout Itemize
@@ -297,15 +299,64 @@ Free flow of information
 \end_layout
 
 \begin_layout Itemize
-Increased time effeciency
+Minimize work in progress
 \end_layout
 
 \begin_layout Itemize
-...
+Pull dynamics
 \end_layout
 
 \begin_layout Standard
 Lean and agile are sometimes used interchangeably in software jargon.
+\end_layout
+
+\begin_layout Standard
+The source of many of the ideas in this report regarding agile is David
+ J Andersson
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.djaa.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, who after experience from managing software projects synthesized ideas
+ from operations management (Theory of Constraints) and lean to write 
+\begin_inset Quotes eld
+\end_inset
+
+Agile Management for Software Engineering - Applying the Theory of Constraints
+ for Business Results
+\begin_inset Quotes erd
+\end_inset
+
+.
+ He gives many accounts of common practical problems and examples of failure/suc
+cess.
+\end_layout
+
+\begin_layout Standard
+One key methodology in lean software, that bears its japanese name (inspired
+ from the Toyota Production System), is 
+\emph on
+kanban
+\emph default
+.
+ In short, kanban (in software) allows pull-dynamics for individual developers,
+ but it requires certain responsibilities and investments from managers/customer
+s depending on the type of project.
 \end_layout
 
 \begin_layout Section*
@@ -352,7 +403,7 @@ Interdependencies between modules must be determined in advance
 
 \begin_deeper
 \begin_layout Itemize
-To plan time-order of development
+To plan the time-order when modules are developed
 \end_layout
 
 \end_deeper
@@ -373,35 +424,25 @@ Overload will force prioritisation too late in the process
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-Because iterations on sub-projects are never 
+Because iterations on sub-projects might not have natural 
 \begin_inset Quotes eld
 \end_inset
 
-complete
+states of completion
 \begin_inset Quotes erd
 \end_inset
 
- or 
-\begin_inset Quotes eld
-\end_inset
-
-final
-\begin_inset Quotes erd
-\end_inset
-
-, appropriate level of quality or success must be decided or known
+ (for example user experience), decisions must be made on appropriate level
+ of quality or functionality
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-Achieving agile requires deep knowledge of the technical conditions of the
- project.
-\end_layout
-
-\begin_layout Standard
-The end requirements are unknown, but understanding of the time requirements,
- interdepencies of modules and components must be understood.
- With in these uncertainties, methods of approximations must be used.
+Making these distinctions and decisions requires deep technical knowledge
+ of the project.
+ The end requirements might be unknown, but enough understanding is necessary
+ to make meaningful estimates of time requirements, interdepencies of modules
+ and components.
 \end_layout
 
 \begin_layout Subsection*
@@ -414,7 +455,7 @@ Typical symptoms of failure to implement agile are
 status open
 
 \begin_layout Plain Layout
-David J Andersson (); http://www.djaa.com/resources
+David J Andersson; http://www.djaa.com/resources
 \end_layout
 
 \end_inset
@@ -431,15 +472,7 @@ crunch time
 \begin_inset Quotes erd
 \end_inset
 
-, as in critical or intense period of finishing tasks, experienced as 
-\begin_inset Quotes eld
-\end_inset
-
-compressed
-\begin_inset Quotes erd
-\end_inset
-
- time), is usually caused by:
+, as in critical or intense period of finishing tasks), can be caused by:
 \end_layout
 
 \begin_deeper
@@ -489,20 +522,27 @@ errors cause more iterations and slow progress
 \end_deeper
 \end_deeper
 \begin_layout Subsection*
-Summary of agile methods
+Summary of lean software methodologies
 \end_layout
 
 \begin_layout Standard
-Lean or agile methods in software development achieve effeciencies by:
+Lean or agile software development achieves effeciencies by:
 \end_layout
 
 \begin_layout Itemize
 Spreading the design and requirements work over the time duration of the
- project
+ project, allowing the project to adapt to uncertainties
 \end_layout
 
 \begin_layout Itemize
-Deferring decisions until
+Allowing developers to focus on one task at a time, not worrying about prioritiz
+ation
+\end_layout
+
+\begin_layout Itemize
+Deferring decisions until necessary (but not later); a consequence of proper
+ iterations, enables efficiencies by not spending time/energy on tasks which
+ might be inconsequential to final product
 \end_layout
 
 \begin_layout Section*
@@ -510,19 +550,19 @@ Implementation of agile at DICE
 \end_layout
 
 \begin_layout Standard
-Two parts to implementation; introducing practices and maintaining them.
+Two parts to implementing methodoligies; introducing practices and maintaining
+ them.
  Experience
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-David J Anderson, 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-http://www.djaa.com/resources
+http://www.gamesindustry.biz/articles/2015-07-06-soderlund
 \end_layout
 
 \end_inset
@@ -532,8 +572,9 @@ http://www.djaa.com/resources
 
 \end_inset
 
- shows that, in general, that introduction of new practices among developers
- must be voluntary, and benefits must be demonstrated by example.
+ shows that, in general, that introduction of new methodologies and practices
+ among developers must be voluntary, and benefits must be demonstrated by
+ example.
  Whether versions of these practices are already in place at DICE; the challenge
 s remain 1) to spread use and acceptance of certain practices among developers
  2) and to monitor for misuse, sub-optimisation or problems.
@@ -543,7 +584,102 @@ s remain 1) to spread use and acceptance of certain practices among developers
 We see that introducing use of practices and tools then is a matter of communica
 tion, and makes necessary appropriate channels and forums for discussion
  and debate.
- We see that cross-team communication is important.
+ We see that cross-team communication, and office lay out is important.
+\end_layout
+
+\begin_layout Paragraph*
+Slicing into tasks and sub-projects
+\end_layout
+
+\begin_layout Standard
+In order to achieve pull-dynamics (for example through kanban) on the level
+ of individual developers or small teams, projects must sliced into smaller
+ tasks and prioritized.
+ This is one of the responsibilities which lean software demands be handled
+ by managers, and thus we need to define the responsiblity of this role
+ as:
+\end_layout
+
+\begin_layout Itemize
+The project-owner (definer of tasks) must:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+slice projects into sub-projects/tasks that may be 
+\begin_inset Quotes eld
+\end_inset
+
+pulled
+\begin_inset Quotes erd
+\end_inset
+
+ by developers or teams
+\end_layout
+
+\begin_layout Itemize
+decide requirements for functionality/quality of tasks in order to fit into
+ entire project time-frame
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+This role may be performed by many different positions in a company; but
+ in game production at DICE, most tasks are coordinated by a 
+\begin_inset Quotes eld
+\end_inset
+
+Producer
+\begin_inset Quotes erd
+\end_inset
+
+ which is a form creative director, with responsibility for the end product.
+\end_layout
+
+\begin_layout Standard
+It might be unreasonable to require creative producers be able to decide
+ technical levels of functionality/quality for features; and thus pure pull
+ kanban-style methods might be unsuitable for this particular case.
+\end_layout
+
+\begin_layout Standard
+The producer role is one of the more demanding at DICE, especially at crunch
+ time.
+ Producer for 
+\begin_inset Quotes eld
+\end_inset
+
+Star Wars: Battlefront
+\begin_inset Quotes erd
+\end_inset
+
+ Sigurlina Ingvarsdottir reports
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://fortune.com/2015/09/22/sigurlina-ingvarsdottir-star-wars-battlefront/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 12 hour work days during the months prior to release.
+ Further study might decide whether this could be improved by our suggested
+ methods.
+\end_layout
+
+\begin_layout Subsection*
+Monitoring
 \end_layout
 
 \begin_layout Standard
@@ -583,7 +719,7 @@ Measure daily work hours and output of developers.
 \begin_deeper
 \begin_layout Itemize
 developers/managers should not compensate for bad planning by increasing
- work intensity.
+ work hours and intensity.
  This is the definition of 
 \begin_inset Quotes eld
 \end_inset
@@ -592,7 +728,7 @@ crunch time
 \begin_inset Quotes erd
 \end_inset
 
-, which is to be avoided.
+, which is a symptom to watch for
 \end_layout
 
 \end_deeper
@@ -603,7 +739,7 @@ To catch quality issues
 
 \begin_deeper
 \begin_layout Itemize
-There are many techniques; bug density, number of failing tests
+Automated testing, bug density, number of failing tests
 \begin_inset Foot
 status collapsed
 
@@ -628,94 +764,65 @@ https://en.wikipedia.org/wiki/Unit_testing
 \end_layout
 
 \begin_layout Itemize
-Relevant quality measures
+Relevant quality tests
 \end_layout
 
 \end_deeper
-\begin_layout Paragraph*
-Roles
-\end_layout
-
-\begin_layout Standard
-The benchmarks above provide.
- Agile delegates certain responsibilities; 
-\end_layout
-
-\begin_layout Itemize
-Producer, 
-\begin_inset Quotes eld
-\end_inset
-
-creative directors
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Technical leaders
-\end_layout
-
-\begin_layout Subsubsection*
-Planning
-\end_layout
-
 \begin_layout Subsection*
-Strategy
+Strategy for minimizing work
 \end_layout
 
 \begin_layout Standard
-Avoid unncessary work as early as possible ...
+The goal is to avoid work that has small impact on end result, and instead
+ invest time on high impact features.
+ A strategy is needed to identify high-impact features.
 \end_layout
 
 \begin_layout Standard
-This strategy needs the procedure/data:
-\end_layout
-
-\begin_layout Itemize
-Competence to break proposed features into smaller testable units
-\end_layout
-
-\begin_layout Itemize
-Ability to implement trial-features for testing
-\end_layout
-
-\begin_layout Itemize
-Ability to measure which features have high usage uptake, and which affect
-\end_layout
-
-\begin_layout Itemize
-Ability to make continual improvements
+The long cycle-time of products at DICE make small increments impractical.
+ However, alternative strategies might work: releasing free, limited, previews
+ of games in between product cycles.
+ These could be instrumented to collect usage data.
+ Usage data is then used for prioritizations in final release.
+ The fact that the limited versions are free provide the justification for
+ collecting data from the usage, avoiding unnecessary fear and negative
+ publicity.
 \end_layout
 
 \begin_layout Subsection*
 Pitfalls
 \end_layout
 
-\begin_layout Standard
-Misinterpreting lean, EA example from 2000:s.
- 
+\begin_layout Itemize
+Frequent changes in plans and prioritizations cause dissatisfaction as developer
+s might not be able to finish bigger tasks/projects
 \end_layout
 
 \begin_layout Itemize
-Frequent changes in plans
-\end_layout
-
-\begin_layout Itemize
-Small projects with unclear goals
-\end_layout
-
-\begin_layout Itemize
-Overloading specific developers team with feature-requests
-\end_layout
-
-\begin_layout Section*
-Lessons
+Tasks with unclear goals or conditions for success
 \end_layout
 
 \begin_layout Section*
 Conclusion
+\end_layout
+
+\begin_layout Standard
+The specific conditions at DICE which make straightforward implementation
+ of lean software difficult are: long cycle times and big projects.
+ Big projects lack that natural pacemaker that fast iterations have.
+ There might be long periods between task-completion and final release of
+ the end product, which removes the technical feedback and psychological
+ sense of achievement that is a natural phenomenon in quick iteration-developmen
+t.
+ Instead, the role of pacemaker is placed on internal managers and producers
+ - which leads to intense periods of crunch-time.
+\end_layout
+
+\begin_layout Standard
+The biggest challenge is likely to be in finding useful ways of slicing
+ projects early in the development cycle.
+ If that can be overcome, the benefits of lean software are predictable
+ work loads, higher quality, and more consumer-focused products.
 \end_layout
 
 \end_body
