@@ -546,11 +546,44 @@ Deferring decisions until necessary (but not later); a consequence of proper
 \end_layout
 
 \begin_layout Section*
-Implementation of agile at DICE
+Lean software and innovation at DICE
 \end_layout
 
 \begin_layout Standard
-Two parts to implementing methodoligies; introducing practices and maintaining
+Innovation has two sources at a company like DICE; design (by 
+\begin_inset Quotes eld
+\end_inset
+
+artists
+\begin_inset Quotes erd
+\end_inset
+
+) and technology (by developers) - together they form the 
+\begin_inset Quotes eld
+\end_inset
+
+experience
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Key factors: the relation between these two 
+\begin_inset Quotes eld
+\end_inset
+
+flows
+\begin_inset Quotes erd
+\end_inset
+
+ is loosely coupled; one does not rule over the other and uptake of ideas
+ is voluntary (somewhat.) Our strategy for innovation is to relieve tension
+ in the work chain, to allow time for more experimentation and free thinking.
+ We will attempt to apply lean methodologies to reduce unnecessary work,
+ to clarify chains of communication and responsibility.
+\end_layout
+
+\begin_layout Standard
+Two parts to implementing methodologies; introducing practices and maintaining
  them.
  Experience
 \begin_inset Foot
@@ -572,9 +605,8 @@ http://www.gamesindustry.biz/articles/2015-07-06-soderlund
 
 \end_inset
 
- shows that, in general, that introduction of new methodologies and practices
- among developers must be voluntary, and benefits must be demonstrated by
- example.
+ shows that, in general, that introduction of new practices among developers
+ must be voluntary, and benefits must be demonstrated by example.
  Whether versions of these practices are already in place at DICE; the challenge
 s remain 1) to spread use and acceptance of certain practices among developers
  2) and to monitor for misuse, sub-optimisation or problems.
@@ -584,7 +616,7 @@ s remain 1) to spread use and acceptance of certain practices among developers
 We see that introducing use of practices and tools then is a matter of communica
 tion, and makes necessary appropriate channels and forums for discussion
  and debate.
- We see that cross-team communication, and office lay out is important.
+ We see that cross-team communication, and office lay out play their parts.
 \end_layout
 
 \begin_layout Paragraph*
@@ -592,7 +624,7 @@ Slicing into tasks and sub-projects
 \end_layout
 
 \begin_layout Standard
-In order to achieve pull-dynamics (for example through kanban) on the level
+In order to achieve pull-dynamics (for example with kanban) on the level
  of individual developers or small teams, projects must sliced into smaller
  tasks and prioritized.
  This is one of the responsibilities which lean software demands be handled
@@ -614,7 +646,7 @@ pulled
 \begin_inset Quotes erd
 \end_inset
 
- by developers or teams
+ for work by developers or teams
 \end_layout
 
 \begin_layout Itemize
@@ -633,13 +665,27 @@ Producer
 \begin_inset Quotes erd
 \end_inset
 
- which is a form creative director, with responsibility for the end product.
-\end_layout
+ which has creative responsibility for the end product.
+ It might be unreasonable to require creative producers be able to decide
+ technical levels of functionality/quality for features; and thus pure pull/kanb
+an-style methods might be unsuitable for this particular case.
+ New jargon/language might be necessary (
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-It might be unreasonable to require creative producers be able to decide
- technical levels of functionality/quality for features; and thus pure pull
- kanban-style methods might be unsuitable for this particular case.
+urgent and half-good
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+not urgent, fully acceptance tested
+\begin_inset Quotes erd
+\end_inset
+
+ ...)
 \end_layout
 
 \begin_layout Standard
@@ -768,6 +814,18 @@ Relevant quality tests
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Mitigation involves:
+\end_layout
+
+\begin_layout Itemize
+Cutting features/requirements
+\end_layout
+
+\begin_layout Itemize
+Assigning more resources
+\end_layout
+
 \begin_layout Subsection*
 Strategy for minimizing work
 \end_layout
