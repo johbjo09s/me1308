@@ -56,13 +56,13 @@
 \color #008000
 \end_index
 \leftmargin 2cm
-\topmargin 2cm
+\topmargin 3cm
 \rightmargin 2cm
-\bottommargin 2.5cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -100,32 +100,234 @@ Supply chain
 \end_layout
 
 \begin_layout Standard
-Pipeline and people.
+The external end-points of the supply chain at a game studio are:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+in (suppliers)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+out (distribution)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+pipeline
+\begin_inset Quotes erd
+\end_inset
+
+ of projects/contracts
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+employees
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+software tools
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+games through online portals
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+physical packages
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+services
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The mid-points are:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+(mostly internal) operations
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accumulated resources
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+software modules in progress
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+artistic assets (graphics, 3d models, music)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We will focus on the external parts of supply chain and discuss risks and
+ strategies.
 \end_layout
 
 \begin_layout Section*
-Predictability and consequences
+Predictability and balance
 \end_layout
 
 \begin_layout Standard
-Need for different types of capacity as titles move through their life-cycles
- ...
-\end_layout
-
-\begin_layout Standard
-As one ...
-\end_layout
-
-\begin_layout Standard
-Title life-cycles are planned long in advance
-\end_layout
-
-\begin_layout Standard
-If one title fails, next generation will be reduced
-\end_layout
-
-\begin_layout Section*
-Balance
+There is need for different types of capacity as titles move through their
+ life-cycles.
+ As one title is released, the next one enters pipe-line.
+ Tasks and competencies are too specialised, employees can not quickly be
+ reassigned.
 \end_layout
 
 \begin_layout Subsection*
@@ -137,31 +339,37 @@ Losing employees
 \end_layout
 
 \begin_layout Standard
-Loosing people may cause undercapacity at critical times.
+Losing people may cause undercapacity at critical times.
  Losing key people may delay titles/projects by months, at worst.
- bad leadership major cause.
- Thus leadership on all levels is the preventative strategy.
-\end_layout
-
-\begin_layout Standard
-Monitor for dissatisfaction, requires culture open to criticism
-\end_layout
-
-\begin_layout Standard
-Exchange/rotate successful leaders to spread culture
-\end_layout
-
-\begin_layout Paragraph*
-Losing contracts
-\end_layout
-
-\begin_layout Standard
-Poor sales causes loss of contracts, losing contracts causes overcapacity.
- Strategies:
+ Bad leadership major cause.
+ Thuss is the preventative strategy.
+ Preventative strategies:
 \end_layout
 
 \begin_layout Itemize
-maintain a close relationship with the publisher, EA
+promote good leadership
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exchange/rotate successful leaders to spread culture
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Monitor for dissatisfaction; encourage culture open to criticism
+\end_layout
+
+\begin_layout Standard
+Risk can be lower enough by internal strategies.
+\end_layout
+
+\begin_layout Paragraph*
+Pipeline risks
+\end_layout
+
+\begin_layout Standard
+Poor sales causes loss of revenue and contracts, which causes overcapacity.
 \end_layout
 
 \begin_layout Itemize
@@ -178,20 +386,77 @@ Offer over-capacity to other studios within EA
 \end_layout
 
 \end_deeper
+\begin_layout Paragraph*
+Highest impact
+\end_layout
+
+\begin_layout Standard
+No definitive strategy can prevent or mitigate pipeline risks; a predictable
+ pipeline is most important factor.
+\end_layout
+
 \begin_layout Section*
 Strategies
 \end_layout
 
-\begin_layout Subsubsection*
-Prevention
+\begin_layout Subsection*
+Integration upwards (publisher EA)
 \end_layout
 
-\begin_layout Subsubsection*
-Mitigation
+\begin_layout Standard
+Benefits:
+\end_layout
+
+\begin_layout Itemize
+Predictability in pipeline
+\end_layout
+
+\begin_layout Itemize
+Network of internal customers and suppliers; meet unpredictable demand
+\end_layout
+
+\begin_layout Standard
+Drawbacks:
+\end_layout
+
+\begin_layout Itemize
+EA limits distribution channels to favour its own portal (Origin vs.
+ Steam)
+\end_layout
+
+\begin_layout Subsection*
+Integration downwards (tools)
+\end_layout
+
+\begin_layout Paragraph*
+Early access to technology
+\end_layout
+
+\begin_layout Standard
+Opportunities occur for game studios to gain early access to new technology
+ (consoles, graphics adapters and packages), integrations may occur downwards
+ in the value chain.
+ These benefit technology providers such as Sony and Apple as they are able
+ to launch products with ready made games.
+ There is a risk of overinvesting in technology which may not gain momentum.
 \end_layout
 
 \begin_layout Section*
 Conclusions
+\end_layout
+
+\begin_layout Standard
+Predictable demand is essential for a studio with very long cycle-times,
+ as interruptions in the pipeline causes overcapacity (layoffs), dispersal
+ of talent, and all related negative consequences.
+ Undercapacity can be prevented by improved processes and planning, and
+ sizing operations to allow certain variations.
+\end_layout
+
+\begin_layout Standard
+One possible strategy for a studio is to integrate upwards with the publisher.
+ Benefits and drawbacks depend on the resources and network-effects the
+ publisher can offer.
 \end_layout
 
 \end_body
