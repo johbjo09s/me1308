@@ -1,0 +1,645 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+F5 Lean för effektiv likväl som innovativ verksamhet
+\end_layout
+
+\begin_layout Standard
+Software development offers many unique challenges.
+ The software of a product or system is the part that is expected:
+\end_layout
+
+\begin_layout Itemize
+to change
+\end_layout
+
+\begin_layout Itemize
+to handle and hide complexity
+\end_layout
+
+\begin_layout Standard
+There are two major types of processes in software (or product) development:
+\end_layout
+
+\begin_layout Paragraph*
+deterministic
+\end_layout
+
+\begin_layout Standard
+intensive pre-planning and documentation (
+\begin_inset Quotes eld
+\end_inset
+
+waterfall
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The deterministic process grew from ...
+ military contracts, and ...
+ which are ordered on specifications.
+\end_layout
+
+\begin_layout Paragraph*
+empirical
+\end_layout
+
+\begin_layout Standard
+iterative, feedback loops.
+ Empirical/iterative development has been known and practiced in many forms
+ for long, but first had wide impact and recognition in early consumer internet
+ services.
+ In 1990:s became widely known with methodologies called 
+\begin_inset Quotes eld
+\end_inset
+
+scrum
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+xp
+\begin_inset Quotes erd
+\end_inset
+
+.
+ All fall under the moniker 
+\begin_inset Quotes eld
+\end_inset
+
+agile
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Innovation
+\end_layout
+
+\begin_layout Standard
+Innovation interpretation:
+\end_layout
+
+\begin_layout Itemize
+velocity at which features are introduced
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+lean: increase velocity by removing obstacles, not by running faster
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+1 - predictability
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+100% predictability = 0% innovation
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+We're looking for a methodology to help us:
+\end_layout
+
+\begin_layout Itemize
+increase velocity of feature development
+\end_layout
+
+\begin_layout Itemize
+cope with uncertainty
+\end_layout
+
+\begin_layout Section*
+Lean software development
+\end_layout
+
+\begin_layout Standard
+There has been interest in ...
+ applying ideas from lean to software development, with the aim of increasing
+ efficiency and quality ...
+ As the metaphores do not translate directly from production lines to software,
+ we need to understand the underlying principles and purposes so that we
+ can apply them properly (
+\begin_inset Quotes eld
+\end_inset
+
+Implementing Lean
+\begin_inset Quotes erd
+\end_inset
+
+, Poppendieck).
+\end_layout
+
+\begin_layout Subsection*
+Value
+\end_layout
+
+\begin_layout Standard
+In deterministic development processes, work on requirements preceeds real
+ development as way of reducing uncertainties.
+ Stakeholders/customers therefore try to maximize their stakes, and the
+ requirement documents might come to play the role of a contract between
+ the stakeholders and developers, thus placing them in opposition to each
+ other.
+ Conflicts ensue when requirements need to change throughout the development
+ cycle.
+\end_layout
+
+\begin_layout Standard
+In empirical/iterative development, the requirements are allowed and expected
+ to change throughout the process.
+\end_layout
+
+\begin_layout Standard
+Lean gives further clarity as it encourages developers to impersonate the
+ customer/stakeholder, to see and experience the value of each feature.
+\end_layout
+
+\begin_layout Standard
+One source of efficiency in lean software is the effect of pruning requirements
+ down to bare minimum, and discovering through the empirical iterations
+ which features provide most value.
+\end_layout
+
+\begin_layout Standard
+Focus on: Outcome / Impact / Value, rather than assigning responsibilities
+ as basis for blame.
+\end_layout
+
+\begin_layout Subsection*
+Flow
+\end_layout
+
+\begin_layout Standard
+Flow means to minimize time-delays between the steps in the value chain.
+ The development chain is roughly:
+\end_layout
+
+\begin_layout Enumerate
+requirements, ideas, features, bugs
+\end_layout
+
+\begin_layout Enumerate
+prototyping, implementation
+\end_layout
+
+\begin_layout Enumerate
+integration (combining new work into existing codebase)
+\end_layout
+
+\begin_layout Enumerate
+automated testing
+\end_layout
+
+\begin_layout Enumerate
+release and deployment
+\end_layout
+
+\begin_layout Standard
+Flow in this chain/stream is important for quality because there are feedback
+ loops between the steps.
+ If there are long time-delays before feedback arrives back to step 1),
+ time to fix the problems increases proportionally.
+ Maybe new code has been built dependent on the old faulty code?
+\end_layout
+
+\begin_layout Standard
+Because of the importance of this flow, deciding the flow-unit is even more
+ important.
+ Usually it is 
+\begin_inset Quotes eld
+\end_inset
+
+features
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+stories
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+use cases
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Pull
+\end_layout
+
+\begin_layout Standard
+The purpose of pull in development is not to minimize inventory or work-in-progr
+ess, but to make the pace for developers predictable and steady.
+ Developers pick tasks from a task-pool, and work on the task until handoff,
+ then return to the pool to pick the next task.
+ Pull means that developers have autonomy over their time.
+ This means that developers don't make time estimates; rather predictability
+ of is achieved by monitoring the 
+\begin_inset Quotes eld
+\end_inset
+
+takt
+\begin_inset Quotes erd
+\end_inset
+
+ at which tasks are finished.
+ Task pool is backlog, and backlog management is a responsibility necessarily
+ handled by managers.
+ Kanban is one of a few similar techniques used for workflow.
+\end_layout
+
+\begin_layout Standard
+The limiting resource in development is developer time; the theory of constraint
+s instructs us to optimize the chain for maximized throughput of the limiting
+ resource - which is achieved by kanban.
+\end_layout
+
+\begin_layout Paragraph*
+Resource efficiency vs.
+ flow efficiency
+\end_layout
+
+\begin_layout Standard
+Niklas Modig argues to maximize flow-unit utilisation.
+ This has no obvious translation into development because flow-units are
+ arbitrarily decided.
+ One interpretation is: tasks that are too big for one developer should
+ be devided into smaller parts.
+\end_layout
+
+\begin_layout Subsubsection*
+Continual learning and improvement of processes
+\end_layout
+
+\begin_layout Standard
+Because the details of any process should fit the team and specific field,
+ teams must learn by themselves what processes work best.
+ Again, we reference Niklas Modig, here is 
+\begin_inset Quotes eld
+\end_inset
+
+The Loop
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+The set; hypothesis
+\end_layout
+
+\begin_layout Enumerate
+Test
+\end_layout
+
+\begin_layout Enumerate
+Evaluate
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+present data visually
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Analyze
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+understand underlying causes; why?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Improve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+translate analysis into changes in the hypothesis, repeat test
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The aim is to make this loop part of culture.
+ Scrum (an agile methodology adjacent to lean) stresses time-boxes and work
+ commitments instead of pull, and makes inspection, review and feedback
+ scheduled events.
+\end_layout
+
+\begin_layout Subsection*
+Kaizen
+\end_layout
+
+\begin_layout Standard
+Some things that encourage kaizen culture: it has been observed that when
+ inefficencies are exposed visually on walls people's willingness to responsibil
+ity grows.
+ Similar observation has been observed with Scrum; when people commit to
+ tasks in front their peers, responsibility for actions and improvement
+ grows.
+ It reminds us that the practices are only training wheels for people.
+\end_layout
+
+\begin_layout Description
+Jidoka 
+\begin_inset Quotes eld
+\end_inset
+
+awareness
+\begin_inset Quotes erd
+\end_inset
+
+ and transparency in software is achieved by the 
+\begin_inset Quotes eld
+\end_inset
+
+agile card wall
+\begin_inset Quotes erd
+\end_inset
+
+ - whiteboards with post-its
+\end_layout
+
+\begin_layout Standard
+Physically standing in front of a card wall, discussing, and commiting to
+ tasks in front of peers increases responsibility and investment into the
+ processes.
+\end_layout
+
+\begin_layout Paragraph*
+KPI
+\end_layout
+
+\begin_layout Itemize
+Cycle-time, lead-time
+\end_layout
+
+\begin_layout Itemize
+Backlog length
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+velocity
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Roles and responsibilties
+\end_layout
+
+\begin_layout Standard
+In order to achieve pull-dynamics (for example with kanban) on the level
+ of individual developers or small teams, projects must sliced into smaller
+ tasks and prioritized.
+ This is one of the responsibilities which lean software demands be handled
+ by managers, and thus we need to define the responsiblity of this role
+ as:
+\end_layout
+
+\begin_layout Itemize
+The project-owner (definer of tasks) must:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+slice projects into sub-projects/tasks that may be 
+\begin_inset Quotes eld
+\end_inset
+
+pulled
+\begin_inset Quotes erd
+\end_inset
+
+ for work by developers or teams
+\end_layout
+
+\begin_layout Itemize
+decide requirements for functionality/quality of tasks in order to fit into
+ entire project time-frame
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Monitoring
+\end_layout
+
+\begin_layout Standard
+To monitor for misimplementation or failures in planning, we need to keep
+ measurements that can capture symptoms of typical failures, such as:
+\end_layout
+
+\begin_layout Itemize
+To be able to prevent time-crunch in advance:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measure time/rate of completion of relevant work units (tasks/features/modules/p
+rojects)
+\end_layout
+
+\begin_layout Itemize
+Monitor progress as percentage of entire project, make sure completion-rate
+ of sub-tasks allows total completion within time-frime
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If this fails to catch time-crunch, it means slicing and time-estimates
+ of tasks and requirements are poor.
+ It might be impossible to improve, but this should cause feedback to managers
+ responsible for task-prioritisation in order to improve estimates
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Measure daily work hours and output of developers.
+ Watch for trends.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+developers/managers should not compensate for bad planning by increasing
+ work hours and intensity.
+ This is the definition of 
+\begin_inset Quotes eld
+\end_inset
+
+crunch time
+\begin_inset Quotes erd
+\end_inset
+
+, which is a symptom to watch for
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection*
+Summary of lean software methodologies
+\end_layout
+
+\begin_layout Standard
+Lean or agile software development achieves effeciencies by:
+\end_layout
+
+\begin_layout Itemize
+Spreading the design and requirements work over the time duration of the
+ project, allowing the project to adapt to uncertainties
+\end_layout
+
+\begin_layout Itemize
+Allowing developers to focus on one task at a time, not worrying about prioritiz
+ation
+\end_layout
+
+\begin_layout Itemize
+Deferring decisions until necessary (but not later); a consequence of proper
+ iterations, enables efficiencies by not spending time/energy on tasks which
+ might be inconsequential to final product
+\end_layout
+
+\begin_layout Subsection*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Challenges:
+\end_layout
+
+\begin_layout Itemize
+Partioning into suitable flow-units
+\end_layout
+
+\begin_layout Standard
+Benefits:
+\end_layout
+
+\begin_layout Itemize
+Predictable flow
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+higher quality
+\end_layout
+
+\begin_layout Itemize
+higher velocity
+\end_layout
+
+\begin_layout Itemize
+more room for innovation
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

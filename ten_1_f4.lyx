@@ -1,0 +1,351 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+F4 Tjänstestrategi och miljöarbete (sustainability)
+\end_layout
+
+\begin_layout Standard
+Online services are important.
+ Social services like Facebook and Youtube are important for entertainment
+ and advertising.
+ Dropbox, Linked In, and Google Docs are gaining in importance for business.
+ We might summarize these as 
+\begin_inset Quotes eld
+\end_inset
+
+social
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+cloud
+\begin_inset Quotes erd
+\end_inset
+
+ business.
+\end_layout
+
+\begin_layout Standard
+The fundamental physics of the the social cloud business model is to:
+\end_layout
+
+\begin_layout Itemize
+connect users to each other
+\end_layout
+
+\begin_layout Itemize
+offer central storage to allow users to share data (
+\begin_inset Quotes eld
+\end_inset
+
+co-creation
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+When this model is successful, growing, the backend of the 
+\begin_inset Quotes eld
+\end_inset
+
+cloud
+\begin_inset Quotes erd
+\end_inset
+
+ of these services create ...
+ demand for big data centers; the biggest are fair to call megacenters.
+ Although there economies of scale in datacenters, it is important to reflect
+ on the scales involved:
+\end_layout
+
+\begin_layout Itemize
+Facebook Luleå occupies 
+\begin_inset Formula $28\,000\, m^{2}$
+\end_inset
+
+ and is reported to consume 55 terawatt hours yearly, equal to the total
+ usage of Sweden's industry (SvD - not confirmed)
+\end_layout
+
+\begin_layout Itemize
+Google Hamina, Finland is of similar size
+\end_layout
+
+\begin_layout Standard
+These are located in places with economic cooling and cheap renewable electricit
+y nearby (hydro- and wind-power.) Both Facebook and Google are high-profile
+ companies sensitive to media scrutiny, and sustainability is clearly part
+ of their brand values but we mention them here to clarify the scales.
+ According to a Greenpeace report, far from the majority of energy powering
+ data centers in the world is renewable.
+\end_layout
+
+\begin_layout Standard
+And if renewable, is it a responsible use for a limited resource? Hydro-power
+ may be renewable annually, but the instant power-output of both hydro and
+ wind is limited by natural physics.
+\end_layout
+
+\begin_layout Subsection*
+Why so big?
+\end_layout
+
+\begin_layout Standard
+These services require mega capacity for a chain of reasons: firstly they
+ are popular.
+ If look closer we see that they pursue a specific strategy:
+\end_layout
+
+\begin_layout Itemize
+each user-hour (or data unit) of service brings comparatively little revenue
+\end_layout
+
+\begin_layout Itemize
+then, maximise user-hours and data storage (by offering users more for free)
+\end_layout
+
+\begin_layout Itemize
+but, revenue per kilowatt-hour is ever smaller
+\end_layout
+
+\begin_layout Standard
+We arrive at the criticial relationship and key metric for sustainable cloud
+ business models:
+\end_layout
+
+\begin_layout Itemize
+customer value per watt-hour
+\end_layout
+
+\begin_layout Subsection*
+Conflict
+\end_layout
+
+\begin_layout Standard
+When social connections and shared storage are key values of the product,
+ there is a dependence on central infrastructure.
+ Thus, the social cloud model is at conflict with sustainability, unless
+ the value of each user-hour is so high to warrant a price which limits
+ demand.
+\end_layout
+
+\begin_layout Standard
+Energy consumed in data centers produce very few positive externalities;
+ in contrast to the mining and forestry industries which support long value
+ chains and many jobs.
+\end_layout
+
+\begin_layout Subsubsection*
+The long-tail
+\end_layout
+
+\begin_layout Standard
+The long tail (Chris Anderson), when exploited by one company such as Youtube,
+ requires mega capacity.
+\end_layout
+
+\begin_layout Paragraph*
+Culprit business model
+\end_layout
+
+\begin_layout Enumerate
+focus on attractive free service to consumers to maximize user hours
+\end_layout
+
+\begin_layout Enumerate
+charge for meta information about users and access to information channels
+ (ex: advertising)
+\end_layout
+
+\begin_layout Standard
+When this succeeds, it leads to ever lower value per watt-hour.
+\end_layout
+
+\begin_layout Section*
+Sustainable models
+\end_layout
+
+\begin_layout Standard
+Because energy markets are connected, sustainability is a global concern.
+ Meanwhile, creation and architecture of the services who reach global impact
+ is in the hands of a very few, often unwitting, technologists.
+\end_layout
+
+\begin_layout Standard
+Alternative social cloud business models are needed.
+\end_layout
+
+\begin_layout Standard
+Because co-creation is a core value of social cloud services, the challenge
+ is to find ways to achieve co-creation without depending on vast central
+ storage for each user.
+\end_layout
+
+\begin_layout Subsection*
+Requirements
+\end_layout
+
+\begin_layout Standard
+For online services to be sustainable and environmentally responsible: 
+\end_layout
+
+\begin_layout Enumerate
+High revenue per user-hour
+\end_layout
+
+\begin_layout Enumerate
+Or, independence of server-time and central storage
+\end_layout
+
+\begin_layout Standard
+Examples of such services: Skype and Spotify.
+\end_layout
+
+\begin_layout Subsection*
+Peer-to-peer: Skype
+\end_layout
+
+\begin_layout Standard
+Skype is a social cloud service, and while Skype is dependent on central
+ servers, it was originally architected to work with peer-to-peer topology
+ - specifically to be independent of infrastructure.
+\end_layout
+
+\begin_layout Standard
+In its original architecture, the central infrastructure for Skype was necessary
+ to connect phone calls to external telephone networks.
+ Thus, demand of the infrastructure was limited by price per time-unit.
+\end_layout
+
+\begin_layout Subsection*
+Spotify
+\end_layout
+
+\begin_layout Standard
+While Spotify is dependent on central servers for data, the data storage
+ requirements are small compared to long-tail services like Youtube.
+ In addition, Spotify aggressively uses local caching to minimize load on
+ network and servers, and to improve user experience.
+ Audio streaming has much lighter bandwidth-requirements than video.
+\end_layout
+
+\begin_layout Standard
+There are two levels of service; 1) free but limited 2) unlimited for pay.
+ Thus demand is limited by price.
+\end_layout
+
+\begin_layout Standard
+The storage requirements for user data is small; only playlists.
+\end_layout
+
+\begin_layout Standard
+Overall, the Spotify business model should achieve a favourable user-value
+ per watt-hour.
+\end_layout
+
+\begin_layout Subsection*
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Strategies for sustainability (business case):
+\end_layout
+
+\begin_layout Itemize
+Services must be less dependent on centralised storage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+peer-to-peer
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Maximise revenue per hour of server-time
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

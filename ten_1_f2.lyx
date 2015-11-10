@@ -1,0 +1,389 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman Adobe Garamond Pro
+\font_sans Helvetica Neue
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+F2 Flexibel värdekedja för innovativa produkter/tjänster
+\end_layout
+
+\begin_layout Standard
+Small software companies can make products with limited resources that achieve
+ enormous, seemingly improbable, impact.
+ They achieve this by leveraging platforms and tools that are offered freely,
+ or for purchase, and investing all their focus in articulating a value-proposit
+ion for the end customer into a final product.
+ The final product is the last link in a long chain of technology external
+ to the company, usually representing millions of hours of accumulated work.
+ Because the product will be dependent on this chain, it should be seen
+ as an investment of the company into that particular chain of technology.
+ Although metaphors like 
+\begin_inset Quotes eld
+\end_inset
+
+value stream
+\begin_inset Quotes erd
+\end_inset
+
+ (Womack 1995) become strained when applied to software development, we
+ might call this the 
+\emph on
+dependency chain
+\emph default
+, and it is the up- and down-stream parts of the value chain external to
+ the end product.
+ The internal parts fits more closely 
+\begin_inset Quotes eld
+\end_inset
+
+value stream
+\begin_inset Quotes erd
+\end_inset
+
+ as it represents many streams combining to one product, although not necessaril
+y in sequential order.
+\end_layout
+
+\begin_layout Standard
+Apple iOS (used on iPhones and iPads), and the Android operating system
+ for smartphones, are current examples of platforms for which millions of
+ apps have been built.
+ These two platforms are technically very different, meaning that if a company
+ wants to release an app on both platforms, the amount of work is almost
+ doubled.
+ We might think this is offset by the fact that the market is also doubled;
+ however, when a company commits to building on two platforms it essentially
+ splits its internal value stream in two: each new feature needs to be implement
+ed twice, with slightly different look and feel for each platform.
+ This disrupts the flow of development and innovation, and makes introducing
+ new features complicated.
+ Specific platforms have uncertain life-cycles (once dominant Blackberry
+ and Symbian have died in the last five years) making platform investments
+ risky.
+\end_layout
+
+\begin_layout Standard
+The internal value stream in software development can be likened to a factory
+ pipeline, with these steps:
+\end_layout
+
+\begin_layout Enumerate
+ideas, features, bug-fixes
+\end_layout
+
+\begin_layout Enumerate
+prototyping, implementation
+\end_layout
+
+\begin_layout Enumerate
+integration (combining new work into existing codebase)
+\end_layout
+
+\begin_layout Enumerate
+automated testing
+\end_layout
+
+\begin_layout Enumerate
+release and deployment
+\end_layout
+
+\begin_layout Standard
+For each unit of work, this is a linear process.
+ The aim (of architecture and operations) is to support as many parallell
+ pipelines like this as possible, but integration and testing makes this
+ difficult.
+ For example, a failing test in one 
+\begin_inset Quotes eld
+\end_inset
+
+pipeline
+\begin_inset Quotes erd
+\end_inset
+
+ stops testing for all other pipelines.
+ One alternative strategy to parallell integration is 
+\begin_inset Quotes eld
+\end_inset
+
+branching
+\begin_inset Quotes erd
+\end_inset
+
+ (separate copies of codebase) which allows for integration in batches instead
+ (
+\begin_inset Quotes eld
+\end_inset
+
+merging
+\begin_inset Quotes erd
+\end_inset
+
+), but overall this might create even bigger disruptions in flow.
+\end_layout
+
+\begin_layout Standard
+If the company is creating apps for different platforms that are to act
+ as clients for a central service (ex: Spotify), the apps will share dependencie
+s making the chain even more complicated.
+\end_layout
+
+\begin_layout Paragraph*
+Multiple teams, multiple streams
+\end_layout
+
+\begin_layout Standard
+If the app depends on many teams working in parallell (ex: the 
+\begin_inset Quotes eld
+\end_inset
+
+playlist-team
+\begin_inset Quotes erd
+\end_inset
+
+ or the 
+\begin_inset Quotes eld
+\end_inset
+
+homescreen-team
+\begin_inset Quotes erd
+\end_inset
+
+), the dependencies are instead a graph rather than a chain.
+ This makes new features, and innovation, difficult coordination.
+\end_layout
+
+\begin_layout Paragraph*
+Innovation
+\end_layout
+
+\begin_layout Standard
+We see the need for a solution (of the dependency- and integration chains)
+ to support parallell development of new features, targeting different platforms
+, without minimum flow interuptions.
+ This is a technical problem with many specific solutions, but we can define
+ the important points of a strategy:
+\end_layout
+
+\begin_layout Enumerate
+identify key value-generating work (ex: user interaction or 
+\begin_inset Quotes eld
+\end_inset
+
+UX
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+maximize flow by factoring out obstacles from the work (abstraction and
+ automation)
+\end_layout
+
+\begin_layout Paragraph*
+Example: Facebook React
+\end_layout
+
+\begin_layout Standard
+The main target for Facebook UX is web; thus the work is focused on web
+ technologies.
+ To this end Facebook has developed tools to optimize UX work; one is 
+\begin_inset Quotes eld
+\end_inset
+
+React
+\begin_inset Quotes erd
+\end_inset
+
+ (- a tool that translates UI-requests to FB data-queries and allows instant
+ updates of the UI.) This allows exceptional flow in web UX development:
+\end_layout
+
+\begin_layout Itemize
+makes technical details transparent to UX developers
+\end_layout
+
+\begin_layout Itemize
+allows tech teams to update the platforms independently of existing UX-code
+\end_layout
+
+\begin_layout Standard
+The aim is optimize development on mobile platforms (iPhone and Android)
+ to achieve similar efficiency.
+ Factors being considered:
+\end_layout
+
+\begin_layout Itemize
+UX on specific platforms must look and feel native (iPhone must 
+\begin_inset Quotes eld
+\end_inset
+
+look and feel
+\begin_inset Quotes erd
+\end_inset
+
+ like iPhone)
+\end_layout
+
+\begin_layout Itemize
+development experience should feel the same
+\end_layout
+
+\begin_layout Standard
+One strategy Facebook has been pursuing is creating versions of the React
+ framework to work natively on mobile platforms (ref: 
+\begin_inset Quotes eld
+\end_inset
+
+facebook react native
+\begin_inset Quotes erd
+\end_inset
+
+) to achieve the following aims:
+\end_layout
+
+\begin_layout Itemize
+work on apps for different platform is very similar
+\end_layout
+
+\begin_layout Itemize
+identical functionality from React available on native platforms, making
+ parts of work identical to web
+\end_layout
+
+\begin_layout Itemize
+UX concerns are separated from details of platform
+\end_layout
+
+\begin_layout Itemize
+make the dependency chain for each app short; it depends only on React.
+ (The technical work is factored out to the React team.)
+\end_layout
+
+\begin_layout Standard
+Facebook has released React as open source.
+ Netflix is one high profile adopter.
+\end_layout
+
+\begin_layout Subsection*
+Conclusions
+\end_layout
+
+\begin_layout Standard
+From this, we concluce that the generalized value chain strategy for a company
+ pursuing app development should be:
+\end_layout
+
+\begin_layout Enumerate
+Identify key value-generating work/features
+\end_layout
+
+\begin_layout Enumerate
+Optimizing flow for key work by factoring out obstacles
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+find and use 
+\begin_inset Quotes eld
+\end_inset
+
+best of breed
+\begin_inset Quotes erd
+\end_inset
+
+ tools (ex: React)
+\end_layout
+
+\begin_layout Enumerate
+use automation (ex: for testing)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Decoupling (separation of concerns, abstraction)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+aim for short dependency chains
+\end_layout
+
+\begin_layout Enumerate
+aim for independence of technical details of underlying platforms
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

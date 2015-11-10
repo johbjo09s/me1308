@@ -77,7 +77,7 @@
 \begin_body
 
 \begin_layout Title
-ME1308 - 3 - Demand uncertainty
+ME1308 - 3 - Capacity and demand uncertainty
 \end_layout
 
 \begin_layout Author
@@ -85,23 +85,11 @@ Johan Björklund, u1480nqu
 \end_layout
 
 \begin_layout Section*
-Demand characteristics
+Fast scaling
 \end_layout
 
-\begin_layout Section*
-Risks
-\end_layout
+\begin_layout Standard
 
-\begin_layout Subsubsection*
-Prevention
-\end_layout
-
-\begin_layout Subsubsection*
-Mitigation
-\end_layout
-
-\begin_layout Subsection*
-Conclusions
 \end_layout
 
 \end_body

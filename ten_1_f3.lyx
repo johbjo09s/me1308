@@ -3,9 +3,6 @@
 \begin_document
 \begin_header
 \textclass scrartcl
-\begin_preamble
-\KOMAoptions{headings=small}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -62,7 +59,7 @@
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation skip
-\defskip medskip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -76,33 +73,32 @@
 
 \begin_body
 
-\begin_layout Title
-ME1308 - 4 - Measuring Performance For Innovation and Learning
-\end_layout
-
-\begin_layout Author
-Johan Björklund, u1480nqu
-\end_layout
-
 \begin_layout Section*
-Innovation and learning
+F3 Lärande mät- och styrsystem vid stor efterfrågeosäkerhet
 \end_layout
 
 \begin_layout Standard
-If we define innovation to be:
+There are two types of capacity in software development;
 \end_layout
 
 \begin_layout Enumerate
-Velocity in development of new features
+Capacity to innovate and develop new features (ex: velocity)
 \end_layout
 
 \begin_layout Enumerate
-Capacity to handle uncertainties, as full predictability contradicts innovation
+Capacity to deliver volume of service (ex measured in users per minute)
 \end_layout
 
 \begin_layout Standard
-We can see that ...
- learning ...
+Volume is a problem that can be solved easily with resources, but capacity
+ to develop new features and innovate is a hard problem that can sometimes
+ not even be solved by resources.
+ Thus, capacity to innovate is a constraint that development companies need
+ to optimize their operations around.
+ It follows that a key challenge is to determine what products and features
+ to invest in.
+ Even in cases where development capacity is not limited, this is an important
+ challenge as customer attention and interest are limited.
 \end_layout
 
 \begin_layout Standard
@@ -502,50 +498,6 @@ Formulate active experiments for confirmation of hypothesis
 
 \begin_layout Standard
 Otherwise system will not learn; KPI:s will become stale over time.
-\end_layout
-
-\begin_layout Section*
-Definitions of performance
-\end_layout
-
-\begin_layout Standard
-Relevant output
-\end_layout
-
-\begin_layout Standard
-Individual contribution
-\end_layout
-
-\begin_layout Standard
-Product performance
-\end_layout
-
-\begin_layout Itemize
-Impact of features on use
-\end_layout
-
-\begin_layout Section*
-Standard practices
-\end_layout
-
-\begin_layout Section*
-Measurable units
-\end_layout
-
-\begin_layout Subsubsection*
-Challenges
-\end_layout
-
-\begin_layout Subsubsection*
-Consequences of mismeasurement
-\end_layout
-
-\begin_layout Section*
-Strategies for improvement
-\end_layout
-
-\begin_layout Section*
-Conclusions
 \end_layout
 
 \end_body
